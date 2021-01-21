@@ -58,7 +58,7 @@ class StateHomePage extends State<HomePage>
 
                 },
                   tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
-                focusColor: Colors.green,
+                focusColor: Colors.deepOrangeAccent,
 
               );
             },
