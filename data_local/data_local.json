@@ -1,0 +1,35 @@
+{
+  "rutas": [
+
+    {
+      "ruta": "HomePage",
+      "icono": "Icon-home",
+      "texto": "Home"
+    },
+    {
+      "ruta": "VideoCard",
+      "icono": "Icon-contacts",
+      "texto": " Videos"
+    },
+
+    {
+      "ruta": "BikeHomePage",
+      "icono": "Icon-live_help",
+      "texto": " About"
+    },
+    {
+      "ruta": "Multimedia",
+      "icono": "Icon-category",
+      "texto": " Multimedia"
+    },
+    {
+      "ruta": "Salir",
+      "icono": "Icons.receipt",
+      "texto": " Salir"
+    }
+
+
+  ]
+
+
+}
