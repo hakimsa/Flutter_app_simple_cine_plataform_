@@ -48,7 +48,6 @@ class DetailScreen extends StatelessWidget {
   }
 
   Titulo() {
-
     return Positioned(
       child: Text(
         pelicula.title,

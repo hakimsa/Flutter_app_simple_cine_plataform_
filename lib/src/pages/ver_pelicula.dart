@@ -103,10 +103,10 @@ class _VideoPlayerLoadingState extends State<VideoPlayerLoading> {
   @override
   void initState() {
     super.initState();
-    _initialized = widget.controller.value.initialized;
+   _initialized = widget.controller.value.initialized;
     widget.controller.addListener(() {
       if (!mounted) {
-        return;
+        return [];
       }
       final bool controllerInitialized = widget.controller.value.initialized;
       if (_initialized != controllerInitialized) {
