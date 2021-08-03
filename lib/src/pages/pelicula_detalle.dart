@@ -42,6 +42,7 @@ class DetailScreen extends StatelessWidget {
         ]),
 
         valoracion(),
+
         // height: 300,
       ],
     );
@@ -142,17 +143,9 @@ class DetailScreen extends StatelessWidget {
       direction: Axis.horizontal,
       allowHalfRating: false,
       itemCount: 5,
-      itemPadding: EdgeInsets.symmetric(horizontal: 3.0),
-      itemBuilder: (context, _) =>
-          Icon(
-            Icons.star,
-            size: 5,
-            color: Colors.amber,
-          ),
-      /*  onRatingUpdate: (rating) {
-          print(rating);
-        },*/
-    );
+
+      itemPadding: EdgeInsets.symmetric(horizontal: 3.0)
+    ,);
   }
 
   postera(BuildContext context) {

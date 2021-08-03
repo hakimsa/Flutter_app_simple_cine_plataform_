@@ -10,7 +10,7 @@ class Provider {
   String _apiKey = 'cd9f02fa9b75837e14cb04986412e262';
   String _url = 'api.themoviedb.org';
   String _language = 'es-ES';
-  List<Pelicula> _populares = new List();
+  List<Pelicula> _populares ;
   //tuberia
   final _popularesStreamController =
       StreamController<List<Pelicula>>.broadcast();

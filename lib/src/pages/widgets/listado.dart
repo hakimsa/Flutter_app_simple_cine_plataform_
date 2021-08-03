@@ -10,7 +10,7 @@ class BikeHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bikes'),
+        title: Text('Productos'),
       ),
       body: SingleChildScrollView(
         child: Column(
